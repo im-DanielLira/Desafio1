@@ -146,5 +146,6 @@ button{
 .block2-two-text p{
     font-size: 1rem;
     font-weight: 600;
+    opacity: 80%;
 }
 
