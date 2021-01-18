@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( rgb(159, 159, 159), rgb(255, 255, 255));
+}
+
+button{
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    width: 6rem;
+    height: 2rem;
+    background: #00ADB5;
+    color: #EEEEEE;
+    border-radius: .6rem .9rem;
+    
+
+
+}
+
+.block{
+    background: #EEEEEE;
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.block1{
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 13rem;
+    color: #222831;
+    border-radius: 1rem;
+}
+
+.block1-text{
+    max-width: 38rem;
+}
+
+.block1-text h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.block1-text h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #00ADB5;
+}
+
+.block1-text p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.block2{
+    display: flex;
+    color: #EEEEEE;
+    border-radius: 1rem;
+
+}
+
+.block2-one{
+    width: 20rem;
+    height: 17rem;
+    background: #222831;
+    border-radius: 0rem 0rem 0rem 1rem;
+}
+
+
+.block2-one-text{
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block2-one-text h1{
+    margin: 0;
+}
+
+.block2-one-text h1 span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    opacity: 80%;
+}
+
+.block2-one-text h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+
+.block2-one-text p{
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 80%;
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+
+.block2-two{
+    width: 20rem;
+    height: 17rem;
+    background: #393E46;
+    display: flex;
+    justify-content: center;
+    border-radius: 0rem 0rem 1rem 0rem;
+}
+
+.block2-two-text{
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.block2-two-text h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.block2-two-text p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
